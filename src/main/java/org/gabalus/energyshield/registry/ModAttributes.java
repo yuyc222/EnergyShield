@@ -18,7 +18,7 @@ public class ModAttributes {
             () -> new RangedAttribute("attribute.name.energyshield.recharge_rate", 1, 0.0D, 1024.0).setSyncable(true)); // per second
 
     public static final DeferredHolder<Attribute, Attribute> RECHARGE_DELAY = REGISTER.register("recharge_delay",
-            () -> new RangedAttribute("attribute.name.energyshield.recharge_delay", 60, 0.0D, 20 * 60 * 60).setSyncable(true)); // ticks
+            () -> new RangedAttribute("attribute.name.energyshield.recharge_delay", 200, 0.0D, 20 * 60 * 60).setSyncable(true)); // ticks
 
     public static final DeferredHolder<Attribute, Attribute> BREAK_THRESHOLD = REGISTER.register("break_threshold",
             () -> new RangedAttribute("attribute.name.energyshield.break_threshold", 0.1, 0.0D, 1024.0).setSyncable(true));
