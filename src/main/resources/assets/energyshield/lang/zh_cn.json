@@ -1,0 +1,8 @@
+{
+  "attribute.name.energyshield.max": "能量护盾：最大值",
+  "attribute.name.energyshield.recharge_rate": "能量护盾：充能速率",
+  "attribute.name.energyshield.recharge_delay": "能量护盾：充能延迟（刻）",
+  "attribute.name.energyshield.break_threshold": "能量护盾：受击阈值",
+  "attribute.name.energyshield.on_kill_gain": "能量护盾：击杀获得量",
+  "attribute.name.energyshield.leech": "能量护盾：吸取率（%）"
+}
