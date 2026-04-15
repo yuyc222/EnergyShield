@@ -23,7 +23,7 @@ public final class ESConfig {
                 .defineInRange("recharge_rate", 5.0, 0.0, 1024.0);
 
         RECHARGE_DELAY = BUILDER.comment("Default recharge delay (ticks)")
-                .defineInRange("recharge_delay", 60.0, 0.0, 20 * 60 * 60);
+                .defineInRange("recharge_delay", 200.0, 0.0, 20 * 60 * 60);
 
         BREAK_THRESHOLD = BUILDER.comment("Damage required to reset recharge delay")
                 .defineInRange("break_threshold", 1.0, 0.0, 1024.0);
